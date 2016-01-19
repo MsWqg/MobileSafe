@@ -117,7 +117,7 @@ public class SplashActivity extends Activity {
     private void checkUpdate() {
         new Thread() {
             public void run() {
-                //URL http://192.168.1.102:8080/updateinfo.html
+                //URL http://localhost:8080/updateinfo.html
                 Message mes = Message.obtain();
                 long startTime = System.currentTimeMillis();
                 try {
